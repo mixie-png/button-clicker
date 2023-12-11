@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+body {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+/***** UTILITIES *****/
+a {
+    color: #2B78E4;
+}
+
+.margin {
+    margin: 10px;
+}
+span {
+    font-style: italic;
+}
+
+
+/***** NAV BAR *****/
+header {
+    background-color: #bfbfbf;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #2B78E4;
+    border: 3px #000000 solid;
+    border-radius: 0%;
+    box-shadow: 2px 2px #000000;
+    color: #ffffff;
+    height: 30px;
+    padding: 0px 15px;
+}
+
+#search {
+    border: 3px #000000 solid;
+    padding: 10px;
+    width: 300px;
+}
+
+
+/***** CONTAINER *****/
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+
+/***** COLUMN 1 *****/
+.def-1, .def-2 {
+    border: 5px solid #000000;
+    padding: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.noun {
+    text-align: center;
+}
+
+.yellow-btn {
+    background-color: #FFD966;
+    border: 3px #000000 solid;
+    border-radius: 0%;
+    box-shadow: 2px 2px #000000;
+    height: 30px;
+    padding: 0px 15px;
+}
+
+/***** COLUMN 2 *****/
+.you {
+    border: 5px solid #000000;
+    padding: 15px;
+}
+
+.green-btn {
+    background-color: #94C57E;
+    border: 3px #000000 solid;
+    border-radius: 0%;
+    box-shadow: 2px 2px #000000;
+    height: 30px;
+    margin-top: 20px;
+    padding: 0px 15px;
+    width: 100%;
+}
